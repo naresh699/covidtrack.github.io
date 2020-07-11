@@ -1,0 +1,35 @@
+:root {
+    --primary-color: #fff;
+    --secondary-color: #000;
+    --body-fonts: "Helvetica", "Arial", sans-serif;
+    --line-height: 1.5;
+    --body-bg: #000;
+  }
+
+body{
+    background-color: var(--body-bg);
+    font-family: var(--body-fonts);
+    color: var(--primary-color);
+}
+.summary{text-align: center;}
+
+#CovidData{
+    width: 1200px;
+    margin: auto;
+    background-color: #393E46;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 5px;
+}
+
+.head.col{
+    background: #092532;
+    color: var(--primary-color);
+}
+.col{
+    height: 20px;
+    padding: 10px;
+    text-align: center;
+    background-color: #f1c5c5;
+    color: var(--secondary-color);
+}
